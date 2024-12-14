@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Location Finder</title>
+    <link href="/css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1 id="title">Location Finder!!!</h1>
+    <ul id="list">
+        <li><a href="/findIP">Find your Location!</a>
+        </li>
+        <li><a href="/listLocations">List Locations!</a>
+        </li>
+        <li>
+            <form action="/cleared" method="get" onsubmit="return confirmClear()">
+                <button type="submit">Clear Everything</button>
+            </form>
+        </li>
+    </ul>
+
+    <script>
+        function confirmClear() {
+            return confirm("Are you sure you want to clear the database? This action cannot be undone.");
+        }
+    </script>
+
+    <img src="https://cdn.prod.website-files.com/620d42e86cb8ec4d0839e59d/6230e9244963aa3b684c5ed2_61cb6723e4c8112dbd440616_Location-Based-Services-Example.jpeg" alt="location">
+
+    
+</body>
+</html>

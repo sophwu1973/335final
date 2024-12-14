@@ -1,0 +1,34 @@
+#title {
+    background-color: lightcoral;
+}
+
+li {
+    background-color: lightskyblue;
+}
+
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: whitesmoke;
+    background-color: lightcoral;
+}
+
+strong {
+    color: crimson;
+}
+
+fieldset {
+    font-size: large;
+}
+
+li {
+    font-size: large;
+}
+
+th {
+    font-size: large;
+    color: whitesmoke;
+    background-color: lightcoral;
+}
